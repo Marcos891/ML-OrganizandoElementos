@@ -1,0 +1,52 @@
+:root{
+    --colorFondoHead: #EAC926;
+    --colorFondoMenu:#03264C;
+    --colorIconoFooter: #1259c3;
+    --colorSubtituloFooter: #666;
+    --colorParrafoFooter: #ebebeb;
+    --colorVerde: #39b54a;
+    --textoCuerpo: 12px;
+    --textoTitulo: 24px;
+    --textoPrecio: 18px;
+    --textoDescuentoDescripcion: 16px;
+    --colorBoton:#0022AA; 
+  }
+
+
+*{
+  padding: 0;
+  box-sizing: border-box; 
+  margin: 0;
+} 
+
+
+/* header */
+
+
+
+/* main */
+.home__main__description h5{
+  font-size: 18px;
+  width: 30%;
+}
+
+.home__main__description h6{
+  font-size: 16px;
+  width: 70%;
+  color: var(--colorVerde);
+  margin-top: 10px;
+}
+
+.home__main__description h4{
+  margin-top: 10px;
+  color: transparent;
+  transition: 1s;
+}
+
+.home__main__description:hover h4 {
+  color: black;
+}
+
+
+
+
